@@ -217,8 +217,7 @@ predictions.plot(legend=True)
 ax.autoscale(axis='x', tight=True)
 ax.set(xlabel=xlabel, ylabel=ylabel);
 
-#Evaluate Model
-#calculate MSE 
+#Evaluate Mode
 #calculate MSE 
 error = mean_squared_error(test['volume_tch_traffic_erl'], predictions)
 print(f'ARIMA(0,1,1) MSE Error: {error:11.10}')
